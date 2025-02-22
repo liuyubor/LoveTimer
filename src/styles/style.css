@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+}
+
+.timer {
+    font-size: 2em;
+    color: #ff5722;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#time-together {
+    font-size: 1.5em;
+    color: #007acc;
+}
