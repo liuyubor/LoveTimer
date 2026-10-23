@@ -1,0 +1,32 @@
+{
+  "name": "lovetimer-3d",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "LoveTimer · 时光星枢 — 用 Three.js 把在一起的时间变成一颗会跳动的星球",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "anniversary",
+    "love",
+    "shader",
+    "typescript"
+  ]
+}
